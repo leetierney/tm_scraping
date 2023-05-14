@@ -34,7 +34,7 @@ def scrape_results(league, season):
 
         matchday_data.append(pageSoup)
 
-    #Find the home teams, and append to their own list
+	#Find the home teams, and append to their own list
     home_team = []
 
     for i in range(len(matchday_data)):
@@ -44,11 +44,11 @@ def scrape_results(league, season):
     for i in range(len(home_team)):
         for j in range(len(home_team[i])):
             home_team[i][j] = re.split(r'\t+',home_team[i][j].text)
+            
+            if(len(home_team[i][j]) == 1):
+                home_team[i][j].insert(0,'')
         
-        if(len(home_team[i][j]) == 1):
-            home_team[i][j].insert(0,'')
-        
-        home_team[i][j] = home_team[i][j][1].strip()
+            home_team[i][j] = home_team[i][j][1].strip()
 
     #Find the away teams, and append to their own list
     away_team = []
@@ -101,7 +101,7 @@ def scrape_results(league, season):
 
     There is definitely room for improvement here.
     """
-    
+
     attendance_referee = []
 
     for i in range(len(match_info)):
@@ -145,8 +145,17 @@ def scrape_results(league, season):
         for j in range(len(referee[i])):
             referee[i][j] = [' '.join(referee[i][j][2:4])]
             referee[i][j] =  referee[i][j][0]
-                
-    pass
+
+    #Write data to DataFrame
+    df = pd.DataFrame({"Matchday": matchdays, "Home":home_team, "Away":away_team, "Result": result, "Attendance": attendance, "Date": dates, "Referee": referee})
+
+    df['Matchday'] = df['Matchday'].astype(int)
+
+    df = df.set_index('Matchday').apply(lambda x: x.apply(pd.Series).stack()).reset_index().drop('level_1', axis = 1).sort_values(by=['Matchday'])
+
+    df['Season'] = int(season)+1
+
+    return df     
 
 def main():
     league = 'sse-airtricity-league-premier-division'
