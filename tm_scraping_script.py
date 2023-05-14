@@ -3,6 +3,7 @@ import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 import re
+from copy import deepcopy
 
 #Function to scrape results
 def scrape_results(league, season):
@@ -60,6 +61,91 @@ def scrape_results(league, season):
         for j in range(len(away_team[i])):
             away_team[i][j] = re.split(r'\t+', away_team[i][j].text.rstrip('\t'))[0].strip()
     
+    #Find match results, and append to their own list
+    result = []
+
+    for i in range(len(matchday_data)):
+        result.append(matchday_data[i].find_all("span",{"class": "matchresult finished"}))
+        
+    for i in range(len(result)):
+        for j in range(len(result[i])):
+            result[i][j] = result[i][j].text.replace(':', '-')
+
+#Find additional match info, and append to list
+    match_info = []
+
+    for i in range(len(matchday_data)):
+        match_info.append(matchday_data[i].find_all("td",{"class": "zentriert no-border"}))   
+
+    for i in range(len(match_info)):
+
+        for j in range(0, len(match_info[i]), 2):
+
+            if(type(match_info[i][j]) == str):
+                match_info[i][j] = match_info[i][j]
+
+            else:
+                if(any(char.isdigit() for char in match_info[i][j].text) == True):
+                    match_info[i][j] = match_info[i][j].text.strip().split("\n")[1].strip()
+
+    #Extract match dates           
+    dates = []
+
+    for i in range(len(match_info)):
+        dates.append(match_info[i][::2])
+        
+    """
+    Things get a little tricky (and messy) here. 
+
+    Formatting is a little awkward when it comes to attendances and referees, due to missing data points.
+
+    There is definitely room for improvement here.
+    """
+    
+    attendance_referee = []
+
+    for i in range(len(match_info)):
+        attendance_referee.append(match_info[i][1::2])
+
+    for i in range(len(attendance_referee)):
+        for j in range(len(attendance_referee[i])):
+            attendance_referee[i][j] = attendance_referee[i][j].text
+
+    for i in range(len(attendance_referee)):
+        for j in range(len(attendance_referee[i])):
+            attendance_referee[i][j] = attendance_referee[i][j].split()
+            
+
+    def has_numbers(inputString):
+        return any(char.isdigit() for char in inputString)
+
+
+    for i in range(len(attendance_referee)):
+        for j in range(len(attendance_referee[i])):
+            if(len(attendance_referee[i][j]) == 2):
+                attendance_referee[i][j].insert(0, '')
+                attendance_referee[i][j].insert(1, '')
+            
+            if(len(attendance_referee[i][j]) == 6):
+                attendance_referee[i][j].remove('sold')
+                attendance_referee[i][j].remove('out')
+                
+    attendance = deepcopy(attendance_referee)
+
+    for i in range(len(attendance)):
+        for j in range(len(attendance[i])):
+            attendance[i][j] = attendance[i][j][0].replace('.', ',')
+
+            
+    referee = deepcopy(attendance_referee)
+
+    referee[0][0][2:4] = [' '.join(referee[0][0][2:4])]
+
+    for i in range(len(referee)):
+        for j in range(len(referee[i])):
+            referee[i][j] = [' '.join(referee[i][j][2:4])]
+            referee[i][j] =  referee[i][j][0]
+                
     pass
 
 def main():
