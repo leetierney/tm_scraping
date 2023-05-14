@@ -2,8 +2,7 @@
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
-
-
+import re
 
 #Function to scrape results
 def scrape_results(league, season):
@@ -33,6 +32,33 @@ def scrape_results(league, season):
         pageSoup = BeautifulSoup(pageTree.content, 'html.parser')
 
         matchday_data.append(pageSoup)
+
+    #Find the home teams, and append to their own list
+    home_team = []
+
+    for i in range(len(matchday_data)):
+        home_team.append(matchday_data[i].find_all("td",
+                        {"class": "rechts hauptlink no-border-rechts hide-for-small spieltagsansicht-vereinsname"}))
+        
+    for i in range(len(home_team)):
+        for j in range(len(home_team[i])):
+            home_team[i][j] = re.split(r'\t+',home_team[i][j].text)
+        
+        if(len(home_team[i][j]) == 1):
+            home_team[i][j].insert(0,'')
+        
+        home_team[i][j] = home_team[i][j][1].strip()
+
+    #Find the away teams, and append to their own list
+    away_team = []
+
+    for i in range(len(matchday_data)):
+        away_team.append(matchday_data[i].find_all("td",
+                        {"class": "hauptlink no-border-links no-border-rechts hide-for-small spieltagsansicht-vereinsname"}))
+        
+    for i in range(len(away_team)):
+        for j in range(len(away_team[i])):
+            away_team[i][j] = re.split(r'\t+', away_team[i][j].text.rstrip('\t'))[0].strip()
     
     pass
 
