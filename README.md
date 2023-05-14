@@ -17,7 +17,7 @@ and had some fun analysing results in a variety of leagues. There were, however,
 <h2>Future Improvements</h2>
 <ul>
   <li>Tidying up some of the formatting arguments, as they feel inefficient (specifically the referees part). </li>
-  <li>Different functions for pulling, formatting, and writing to dataframe. </p>
+  <li>Different functions for pulling, formatting, and writing to dataframe. </li>
   <li>Better error handling. </li>
   <li>Writing to a database, to make it handier to query the data. </li>
 </ul>
