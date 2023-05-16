@@ -4,6 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 import re
 from copy import deepcopy
+from datetime import datetime
 
 #Function to scrape results
 def scrape_results(league, season):
@@ -160,7 +161,11 @@ def scrape_results(league, season):
 def main():
     league = 'sse-airtricity-league-premier-division'
     season = 2021
-    print(scrape_results(league, season))
+    startTime = datetime.now()
+
+    var = scrape_results(league, season)
+
+    print("Script using a single function takes %s minutes" % (datetime.now() - startTime))
 
 if __name__ == "__main__":
     main()
