@@ -21,3 +21,16 @@ and had some fun analysing results in a variety of leagues. There were, however,
   <li>Better error handling. </li>
   <li>Writing to a database, to make it handier to query the data. </li>
 </ul>
+
+<h2>Multi function vs single function</h2>
+<p>I have created mulitple solutions to this using:</p>
+<ol>
+  <li>One huge function</li>
+  <li>Multiple functions</li>
+</ol>
+<p>While the multi-function option feels a bit neater and easier to read, I have the following results of some runtimes for the same task:</p>
+<ol>
+  <li>Script using a single function takes 0:00:36.993545 minutes</li>
+  <li>Script using class and multiple functions takes 0:00:40.757512 minutes</li>
+</ol>
+<p>As such, I archived the multi-function option.</p>
