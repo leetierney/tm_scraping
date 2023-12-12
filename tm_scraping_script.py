@@ -5,6 +5,7 @@ from bs4 import BeautifulSoup
 import re
 from copy import deepcopy
 from datetime import datetime
+import os
 
 #Function to scrape results
 def scrape_results(league, season):
@@ -49,7 +50,7 @@ def scrape_results(league, season):
             if(len(home_team[i][j]) == 1):
                 home_team[i][j].insert(0,'')
         
-            home_team[i][j] = home_team[i][j][1].strip()
+            home_team[i][j] = re.sub("[\(\[].*?[\)\]]", "", home_team[i][j][1].strip().replace(u'\xa0\n', u'')).lstrip()
 
     #Find the away teams, and append to their own list
     away_team = []
@@ -60,7 +61,7 @@ def scrape_results(league, season):
         
     for i in range(len(away_team)):
         for j in range(len(away_team[i])):
-            away_team[i][j] = re.split(r'\t+', away_team[i][j].text.rstrip('\t'))[0].strip()
+            away_team[i][j] = re.sub("[\(\[].*?[\)\]]", "", re.split(r'\t+', away_team[i][j].text.rstrip('\t'))[0].strip().strip().replace(u'\xa0\n', u'')).rstrip()
     
     #Find match results, and append to their own list
     result = []
@@ -140,8 +141,6 @@ def scrape_results(league, season):
             
     referee = deepcopy(attendance_referee)
 
-    referee[0][0][2:4] = [' '.join(referee[0][0][2:4])]
-
     for i in range(len(referee)):
         for j in range(len(referee[i])):
             referee[i][j] = [' '.join(referee[i][j][2:4])]
@@ -160,12 +159,16 @@ def scrape_results(league, season):
 
 def main():
     league = 'sse-airtricity-league-premier-division'
-    season = 2021
-    startTime = datetime.now()
+    seasons = [str(i) for i in range(2021)]
 
-    var = scrape_results(league, season)
+    goal_dir = os.path.join(os.getcwd(), "Data/LOI")
 
-    print("Script using a single function takes %s minutes" % (datetime.now() - startTime))
+    for season in seasons:
+        var = scrape_results(league, season)
+        
+        file_name = league + '_' + str(season) + '.csv'
+
+        var.to_csv(os.path.join(goal_dir,file_name))
 
 if __name__ == "__main__":
     main()
