@@ -1,22 +1,22 @@
-#import packages
-import pandas as pd
 import requests
 from bs4 import BeautifulSoup
+import pandas as pd
 import re
-from copy import deepcopy
-from datetime import datetime
-import os
 
-#Function to scrape results
-def scrape_results(league, season):
-    #Header to be used in request on site
-    headers = {'User-Agent':  'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'}
+headers = {'User-Agent':  'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'}
 
-    #Get structure of page
-    page = f"https://www.transfermarkt.co.uk/{league}/spieltag/wettbewerb/IR1/plus/?saison_id={season}&spieltag=1"
-    pageTree = requests.get(page, headers=headers)
-    pageSoup = BeautifulSoup(pageTree.content, 'html.parser')
+def scrape_league_results(league, season_id, output_file_prefix):
+    #Define the base page and get a response from it
+    base_url = f"https://www.transfermarkt.com/{league}/spieltag/wettbewerb/IR1/"
+    initial_url = f"{base_url}/saison_id/{season_id}"
 
+    response = requests.get(initial_url, headers=headers)
+    
+    if response.status_code != 200:
+        raise Exception(f"Failed to load page, status code: {response.status_code}. URL: {base_url + league_url}")
+    
+    pageSoup = BeautifulSoup(response.content, 'html.parser')
+    
     #Find all matchdays in a given season (varies depending on League and Season combination)
     md_scrape = list(filter(None,pageSoup.find_all("div",{"class": "inline-select"})[1].text.split('\n')))
 
@@ -25,18 +25,52 @@ def scrape_results(league, season):
 
     for i in range(len(md_scrape)):
 	    matchdays.append(''.join(ch for ch in md_scrape[i] if ch.isdigit()))
+         
+    # Ensure we have matchday URLs
+    if not matchdays:
+        raise Exception("No matchday links found. The page structure might have changed.")
 
+    #Initialise master list
     matchday_data = []
     
-    #Now that we have all of the matchdays for the given League and Season combination, we want to pull all data for all seasons
-    for i in range(len(matchdays)):
-        page = f"https://www.transfermarkt.co.uk/{league}/spieltag/wettbewerb/IR1/plus/?saison_id={season}&spieltag={matchdays[i]}"
-        pageTree = requests.get(page, headers=headers)
-        pageSoup = BeautifulSoup(pageTree.content, 'html.parser')
+    # Initialise lists for storing match data
+    home_teams = []
+    scores = []
+    away_teams = []
+    
+
+    for matchday in matchdays:
+        md_url = f"{base_url}plus/?saison_id={season_id}&spieltag={matchday}"
+        print(f"Scraping matchday data from: {md_url}")
+
+        response = requests.get(md_url, headers=headers)
+
+        if response.status_code != 200:
+            print(f"Failed to load matchday page, status code: {response.status_code}. URL: {md_url}")
+            continue
+
+        pageSoup = BeautifulSoup(response.content, 'html.parser')
 
         matchday_data.append(pageSoup)
 
-	#Find the home teams, and append to their own list
+    # Extract match results
+    matches = pageSoup.find_all('tr', {'class': 'odd'}) + pageSoup.find_all('tr', {'class': 'even'})
+
+    for match in matches:
+        home_team = match.find('td', {'class': 'team_a'})
+        score = match.find('td', {'class': 'result'})
+        away_team = match.find('td', {'class': 'team_b'})
+        
+        if home_team and score and away_team:
+            matchdays.append(matchday_number)
+            home_teams.append(home_team.text.strip())
+            scores.append(score.text.strip())
+            away_teams.append(away_team.text.strip())
+            
+        else:
+            print(f"Skipping a row due to missing data: {match}")  
+
+    #Find the home teams, and append to their own list
     home_team = []
 
     for i in range(len(matchday_data)):
@@ -73,102 +107,28 @@ def scrape_results(league, season):
         for j in range(len(result[i])):
             result[i][j] = result[i][j].text.replace(':', '-')
 
-#Find additional match info, and append to list
-    match_info = []
-
-    for i in range(len(matchday_data)):
-        match_info.append(matchday_data[i].find_all("td",{"class": "zentriert no-border"}))   
-
-    for i in range(len(match_info)):
-
-        for j in range(0, len(match_info[i]), 2):
-
-            if(type(match_info[i][j]) == str):
-                match_info[i][j] = match_info[i][j]
-
-            else:
-                if(any(char.isdigit() for char in match_info[i][j].text) == True):
-                    match_info[i][j] = match_info[i][j].text.strip().split("\n")[1].strip()
-
-    #Extract match dates           
-    dates = []
-
-    for i in range(len(match_info)):
-        dates.append(match_info[i][::2])
-        
-    """
-    Things get a little tricky (and messy) here. 
-
-    Formatting is a little awkward when it comes to attendances and referees, due to missing data points.
-
-    There is definitely room for improvement here.
-    """
-
-    attendance_referee = []
-
-    for i in range(len(match_info)):
-        attendance_referee.append(match_info[i][1::2])
-
-    for i in range(len(attendance_referee)):
-        for j in range(len(attendance_referee[i])):
-            attendance_referee[i][j] = attendance_referee[i][j].text
-
-    for i in range(len(attendance_referee)):
-        for j in range(len(attendance_referee[i])):
-            attendance_referee[i][j] = attendance_referee[i][j].split()
-            
-
-    def has_numbers(inputString):
-        return any(char.isdigit() for char in inputString)
-
-
-    for i in range(len(attendance_referee)):
-        for j in range(len(attendance_referee[i])):
-            if(len(attendance_referee[i][j]) == 2):
-                attendance_referee[i][j].insert(0, '')
-                attendance_referee[i][j].insert(1, '')
-            
-            if(len(attendance_referee[i][j]) == 6):
-                attendance_referee[i][j].remove('sold')
-                attendance_referee[i][j].remove('out')
-                
-    attendance = deepcopy(attendance_referee)
-
-    for i in range(len(attendance)):
-        for j in range(len(attendance[i])):
-            attendance[i][j] = attendance[i][j][0].replace('.', ',')
-
-            
-    referee = deepcopy(attendance_referee)
-
-    for i in range(len(referee)):
-        for j in range(len(referee[i])):
-            referee[i][j] = [' '.join(referee[i][j][2:4])]
-            referee[i][j] =  referee[i][j][0]
-
-    #Write data to DataFrame
-    df = pd.DataFrame({"Matchday": matchdays, "Home":home_team, "Away":away_team, "Result": result, "Attendance": attendance, "Date": dates, "Referee": referee})
+    # Create a DataFrame from the lists
+    data = {
+        'Matchday': matchdays,
+        'Home Team': home_team,
+        'Score': result,
+        'Away Team': away_team
+    }
+    
+    df = pd.DataFrame(data)
 
     df['Matchday'] = df['Matchday'].astype(int)
 
     df = df.set_index('Matchday').apply(lambda x: x.apply(pd.Series).stack()).reset_index().drop('level_1', axis = 1).sort_values(by=['Matchday'])
 
-    df['Season'] = int(season)+1
-
-    return df     
-
-def main():
-    league = 'sse-airtricity-league-premier-division'
-    seasons = [str(i) for i in range(2021)]
-
-    goal_dir = os.path.join(os.getcwd(), "Data/LOI")
-
-    for season in seasons:
-        var = scrape_results(league, season)
-        
-        file_name = league + '_' + str(season) + '.csv'
-
-        var.to_csv(os.path.join(goal_dir,file_name))
-
-if __name__ == "__main__":
-    main()
+    
+    # Define the output file name based on the season
+    output_file = f'{output_file_prefix}_{season_id}.csv'
+    
+    # Save the DataFrame to a CSV file
+    df.to_csv(output_file, index=False)
+    
+    print(f"Data has been saved to '{output_file}'.")
+  
+    
+scrape_league_results(league = 'league-of-ireland-premier-division', season_id='2023', output_file_prefix='league_of_ireland_results')
