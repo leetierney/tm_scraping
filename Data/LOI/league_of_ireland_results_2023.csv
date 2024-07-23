@@ -1,0 +1,181 @@
+Season,Matchday,Home Team,Score,Away Team
+2023,1,Waterford FC,1-1,Shelbourne
+2023,1,Bohemians,2-2,Sligo Rovers
+2023,1,Shamrock Rovers,1-1,Dundalk FC
+2023,1,Derry City,2-1,Drogheda United
+2023,1,Galway United,0-1,St. Pat's
+2023,2,Dundalk FC,0-2,Galway United
+2023,2,Shelbourne,2-1,Shamrock Rovers
+2023,2,St. Pat's,0-1,Bohemians
+2023,2,Drogheda United,1-4,Waterford FC
+2023,2,Sligo Rovers,0-0,Derry City
+2023,3,Shamrock Rovers,4-0,Drogheda United
+2023,3,Bohemians,1-0,Dundalk FC
+2023,3,Galway United,2-1,Waterford FC
+2023,3,Sligo Rovers,0-1,Shelbourne
+2023,3,Derry City,2-1,St. Pat's
+2023,4,Shelbourne,1-0,Galway United
+2023,4,Waterford FC,3-1,St. Pat's
+2023,4,Drogheda United,2-1,Bohemians
+2023,4,Shamrock Rovers,2-2,Derry City
+2023,4,Dundalk FC,0-5,Sligo Rovers
+2023,5,Sligo Rovers,0-0,Shamrock Rovers
+2023,5,Galway United,0-0,Drogheda United
+2023,5,St. Pat's,1-0,Dundalk FC
+2023,5,Bohemians,0-2,Shelbourne
+2023,5,Derry City,3-0,Waterford FC
+2023,6,Dundalk FC,0-0,Waterford FC
+2023,6,Galway United,0-1,Shamrock Rovers
+2023,6,St. Pat's,1-2,Shelbourne
+2023,6,Bohemians,2-1,Derry City
+2023,6,Sligo Rovers,3-1,Drogheda United
+2023,7,Drogheda United,0-0,St. Pat's
+2023,7,Shamrock Rovers,3-1,Bohemians
+2023,7,Derry City,0-1,Galway United
+2023,7,Shelbourne,2-1,Dundalk FC
+2023,7,Waterford FC,0-1,Sligo Rovers
+2023,8,Dundalk FC,0-0,Drogheda United
+2023,8,Shelbourne,0-0,Derry City
+2023,8,St. Pat's,3-0,Sligo Rovers
+2023,8,Waterford FC,1-2,Shamrock Rovers
+2023,8,Galway United,0-2,Bohemians
+2023,9,Sligo Rovers,0-0,Galway United
+2023,9,Bohemians,0-1,Waterford FC
+2023,9,Derry City,4-1,Dundalk FC
+2023,9,Drogheda United,2-2,Shelbourne
+2023,9,St. Pat's,2-1,Shamrock Rovers
+2023,10,Shelbourne,1-2,Bohemians
+2023,10,Waterford FC,0-0,Galway United
+2023,10,Drogheda United,2-2,Derry City
+2023,10,Dundalk FC,0-0,St. Pat's
+2023,10,Shamrock Rovers,3-0,Sligo Rovers
+2023,11,Sligo Rovers,1-1,Dundalk FC
+2023,11,Galway United,1-0,Shelbourne
+2023,11,Derry City,1-3,Shamrock Rovers
+2023,11,Bohemians,1-0,Drogheda United
+2023,11,St. Pat's,1-1,Waterford FC
+2023,12,Drogheda United,3-1,Sligo Rovers
+2023,12,Dundalk FC,2-0,Bohemians
+2023,12,Shelbourne,1-0,St. Pat's
+2023,12,Waterford FC,0-2,Derry City
+2023,12,Shamrock Rovers,1-1,Galway United
+2023,13,Sligo Rovers,0-1,Waterford FC
+2023,13,Bohemians,1-1,Shamrock Rovers
+2023,13,St. Pat's,1-0,Drogheda United
+2023,13,Dundalk FC,0-0,Shelbourne
+2023,13,Galway United,0-0,Derry City
+2023,14,Drogheda United,2-1,Dundalk FC
+2023,14,Bohemians,0-1,Galway United
+2023,14,Sligo Rovers,1-0,St. Pat's
+2023,14,Shamrock Rovers,1-3,Waterford FC
+2023,14,Derry City,1-1,Shelbourne
+2023,15,Shelbourne,1-1,Drogheda United
+2023,15,Shamrock Rovers,2-2,St. Pat's
+2023,15,Derry City,1-0,Bohemians
+2023,15,Waterford FC,4-1,Dundalk FC
+2023,15,Galway United,0-0,Sligo Rovers
+2023,16,Dundalk FC,1-0,Shamrock Rovers
+2023,16,St. Pat's,0-1,Derry City
+2023,16,Drogheda United,2-3,Galway United
+2023,16,Sligo Rovers,0-3,Bohemians
+2023,16,Shelbourne,1-0,Waterford FC
+2023,17,Derry City,2-2,Sligo Rovers
+2023,17,Galway United,2-0,Dundalk FC
+2023,17,Waterford FC,4-2,Drogheda United
+2023,17,Bohemians,2-2,St. Pat's
+2023,17,Shamrock Rovers,0-2,Shelbourne
+2023,18,Dundalk FC,0-0,Derry City
+2023,18,Waterford FC,2-1,Bohemians
+2023,18,Shelbourne,1-2,Sligo Rovers
+2023,18,St. Pat's,2-1,Galway United
+2023,18,Drogheda United,0-2,Shamrock Rovers
+2023,19,Sligo Rovers,2-1,Drogheda United
+2023,19,Bohemians,2-3,Shelbourne
+2023,19,Galway United,3-0,Shamrock Rovers
+2023,19,St. Pat's,,Dundalk FC
+2023,19,Derry City,,Waterford FC
+2023,20,Shelbourne,,Dundalk FC
+2023,20,Drogheda United,1-0,St. Pat's
+2023,20,Shamrock Rovers,0-0,Bohemians
+2023,20,Derry City,2-0,Galway United
+2023,20,Waterford FC,4-1,Sligo Rovers
+2023,21,Waterford FC,0-1,Shelbourne
+2023,21,Galway United,3-0,Drogheda United
+2023,21,Bohemians,1-2,Derry City
+2023,21,St. Pat's,2-1,Shamrock Rovers
+2023,21,Dundalk FC,1-0,Sligo Rovers
+2023,22,Shelbourne,2-0,Galway United
+2023,22,Dundalk FC,0-2,Waterford FC
+2023,22,Sligo Rovers,2-0,Shamrock Rovers
+2023,22,Derry City,5-1,Drogheda United
+2023,22,St. Pat's,0-0,Bohemians
+2023,23,Waterford FC,1-0,St. Pat's
+2023,23,Drogheda United,1-1,Shelbourne
+2023,23,Galway United,1-1,Bohemians
+2023,23,Sligo Rovers,2-1,Derry City
+2023,23,Shamrock Rovers,1-0,Dundalk FC
+2023,24,Dundalk FC,4-2,Drogheda United
+2023,24,Bohemians,0-2,Sligo Rovers
+2023,24,Galway United,1-0,Waterford FC
+2023,24,Derry City,3-1,St. Pat's
+2023,24,Shelbourne,0-0,Shamrock Rovers
+2023,25,St. Pat's,1-2,Shelbourne
+2023,25,Shamrock Rovers,1-0,Derry City
+2023,25,Bohemians,,Dundalk FC
+2023,25,Drogheda United,,Waterford FC
+2023,25,Sligo Rovers,,Galway United
+2023,26,St. Pat's,,Sligo Rovers
+2023,26,Drogheda United,,Bohemians
+2023,26,Waterford FC,,Shamrock Rovers
+2023,26,Dundalk FC,,Galway United
+2023,26,Shelbourne,,Derry City
+2023,27,Sligo Rovers,,Shelbourne
+2023,27,Derry City,,Dundalk FC
+2023,27,Shamrock Rovers,,Drogheda United
+2023,27,Galway United,,St. Pat's
+2023,27,Bohemians,,Waterford FC
+2023,28,Shelbourne,,Bohemians
+2023,28,Waterford FC,,Derry City
+2023,28,Drogheda United,,Sligo Rovers
+2023,28,Dundalk FC,,St. Pat's
+2023,28,Shamrock Rovers,,Galway United
+2023,29,Galway United,,Derry City
+2023,29,Dundalk FC,,Shelbourne
+2023,29,Sligo Rovers,,Waterford FC
+2023,29,St. Pat's,,Drogheda United
+2023,29,Bohemians,,Shamrock Rovers
+2023,30,Shelbourne,,St. Pat's
+2023,30,Waterford FC,,Dundalk FC
+2023,30,Derry City,,Bohemians
+2023,30,Shamrock Rovers,,Sligo Rovers
+2023,30,Drogheda United,,Galway United
+2023,31,Galway United,,Shelbourne
+2023,31,St. Pat's,,Waterford FC
+2023,31,Bohemians,,Drogheda United
+2023,31,Derry City,,Shamrock Rovers
+2023,31,Sligo Rovers,,Dundalk FC
+2023,32,Shelbourne,,Sligo Rovers
+2023,32,Shamrock Rovers,,St. Pat's
+2023,32,Drogheda United,,Derry City
+2023,32,Waterford FC,,Galway United
+2023,32,Dundalk FC,,Bohemians
+2023,33,Bohemians,,St. Pat's
+2023,33,Derry City,,Sligo Rovers
+2023,33,Galway United,,Dundalk FC
+2023,33,Waterford FC,,Drogheda United
+2023,33,Shamrock Rovers,,Shelbourne
+2023,34,Sligo Rovers,,Bohemians
+2023,34,Dundalk FC,,Derry City
+2023,34,Shelbourne,,Waterford FC
+2023,34,St. Pat's,,Galway United
+2023,34,Drogheda United,,Shamrock Rovers
+2023,35,Waterford FC,,Bohemians
+2023,35,Galway United,,Sligo Rovers
+2023,35,Shelbourne,,Drogheda United
+2023,35,St. Pat's,,Derry City
+2023,35,Dundalk FC,,Shamrock Rovers
+2023,36,Sligo Rovers,,St. Pat's
+2023,36,Drogheda United,,Dundalk FC
+2023,36,Shamrock Rovers,,Waterford FC
+2023,36,Bohemians,,Galway United
+2023,36,Derry City,,Shelbourne

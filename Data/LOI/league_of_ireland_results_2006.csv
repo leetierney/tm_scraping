@@ -1,0 +1,199 @@
+Season,Matchday,Home Team,Score,Away Team
+2006,1,UCD,0-0,Shamrock Rovers
+2006,1,Bohemians,0-0,Drogheda United
+2006,1,Derry City,1-0,Bray Wanderers
+2006,1,Galway United,0-2,Sligo Rovers
+2006,1,Waterford Utd,1-0,Cork City
+2006,1,Longford Town,1-2,St. Pat's
+2006,2,Bray Wanderers,1-0,Bohemians
+2006,2,Drogheda United,3-2,UCD
+2006,2,St. Pat's,3-0,Waterford Utd
+2006,2,Cork City,0-0,Galway United
+2006,2,Shamrock Rovers,2-0,Longford Town
+2006,2,Sligo Rovers,0-2,Derry City
+2006,3,Bohemians,2-1,Shamrock Rovers
+2006,3,Longford Town,0-1,Sligo Rovers
+2006,3,Galway United,2-3,Drogheda United
+2006,3,Waterford Utd,1-2,Bray Wanderers
+2006,3,Derry City,0-1,St. Pat's
+2006,3,UCD,0-1,Cork City
+2006,4,Drogheda United,2-1,Derry City
+2006,4,Cork City,2-0,Longford Town
+2006,4,Waterford Utd,0-1,Bohemians
+2006,4,St. Pat's,3-1,Bray Wanderers
+2006,4,Shamrock Rovers,1-0,Galway United
+2006,4,Sligo Rovers,1-0,UCD
+2006,5,Galway United,0-1,St. Pat's
+2006,5,Derry City,1-4,Cork City
+2006,5,Bray Wanderers,0-2,Shamrock Rovers
+2006,5,Bohemians,1-0,Sligo Rovers
+2006,5,Longford Town,0-1,Drogheda United
+2006,5,UCD,3-0,Waterford Utd
+2006,6,UCD,2-0,Bray Wanderers
+2006,6,Galway United,1-1,Longford Town
+2006,6,St. Pat's,0-0,Bohemians
+2006,6,Cork City,0-0,Shamrock Rovers
+2006,6,Waterford Utd,0-1,Derry City
+2006,6,Drogheda United,3-0,Sligo Rovers
+2006,7,Derry City,0-1,UCD
+2006,7,Sligo Rovers,0-4,St. Pat's
+2006,7,Shamrock Rovers,1-2,Drogheda United
+2006,7,Longford Town,1-0,Waterford Utd
+2006,7,Bray Wanderers,1-1,Cork City
+2006,7,Bohemians,1-1,Galway United
+2006,8,Drogheda United,2-2,Cork City
+2006,8,St. Pat's,2-1,Shamrock Rovers
+2006,8,Bray Wanderers,0-1,Galway United
+2006,8,UCD,2-2,Longford Town
+2006,8,Derry City,0-0,Bohemians
+2006,8,Sligo Rovers,1-1,Waterford Utd
+2006,9,Shamrock Rovers,1-0,Sligo Rovers
+2006,9,Longford Town,1-1,Bray Wanderers
+2006,9,Galway United,1-1,Derry City
+2006,9,Bohemians,0-0,UCD
+2006,9,Waterford Utd,1-1,Drogheda United
+2006,9,Cork City,1-0,St. Pat's
+2006,10,Bohemians,5-0,Longford Town
+2006,10,UCD,2-2,St. Pat's
+2006,10,Waterford Utd,1-0,Galway United
+2006,10,Sligo Rovers,4-1,Cork City
+2006,10,Derry City,1-0,Shamrock Rovers
+2006,10,Drogheda United,4-1,Bray Wanderers
+2006,11,Shamrock Rovers,2-0,Waterford Utd
+2006,11,St. Pat's,1-0,Drogheda United
+2006,11,Longford Town,0-0,Derry City
+2006,11,Cork City,2-1,Bohemians
+2006,11,Bray Wanderers,2-0,Sligo Rovers
+2006,11,Galway United,0-0,UCD
+2006,12,UCD,1-1,Derry City
+2006,12,Drogheda United,0-2,Shamrock Rovers
+2006,12,Waterford Utd,2-1,Longford Town
+2006,12,Galway United,0-1,Bohemians
+2006,12,St. Pat's,3-1,Sligo Rovers
+2006,12,Cork City,2-2,Bray Wanderers
+2006,13,Derry City,1-1,Waterford Utd
+2006,13,Shamrock Rovers,2-0,Cork City
+2006,13,Longford Town,0-3,Galway United
+2006,13,Bray Wanderers,2-1,UCD
+2006,13,Bohemians,2-0,St. Pat's
+2006,13,Sligo Rovers,0-2,Drogheda United
+2006,14,St. Pat's,1-2,Galway United
+2006,14,Shamrock Rovers,1-0,Bray Wanderers
+2006,14,Waterford Utd,1-3,UCD
+2006,14,Cork City,1-1,Derry City
+2006,14,Drogheda United,1-1,Longford Town
+2006,14,Sligo Rovers,2-1,Bohemians
+2006,15,Bray Wanderers,0-0,St. Pat's
+2006,15,UCD,0-2,Sligo Rovers
+2006,15,Derry City,0-1,Drogheda United
+2006,15,Galway United,1-1,Shamrock Rovers
+2006,15,Bohemians,1-0,Waterford Utd
+2006,15,Longford Town,1-2,Cork City
+2006,16,Bray Wanderers,2-1,Waterford Utd
+2006,16,Sligo Rovers,2-1,Longford Town
+2006,16,Drogheda United,2-2,Galway United
+2006,16,St. Pat's,2-1,Derry City
+2006,16,Shamrock Rovers,0-0,Bohemians
+2006,16,Cork City,4-1,UCD
+2006,17,Bohemians,2-0,Bray Wanderers
+2006,17,Galway United,1-2,Cork City
+2006,17,UCD,0-1,Drogheda United
+2006,17,Longford Town,0-3,Shamrock Rovers
+2006,17,Derry City,4-1,Sligo Rovers
+2006,17,Waterford Utd,2-1,St. Pat's
+2006,18,Drogheda United,1-0,Bohemians
+2006,18,Sligo Rovers,1-1,Galway United
+2006,18,St. Pat's,4-2,Longford Town
+2006,18,Shamrock Rovers,2-0,UCD
+2006,18,Cork City,2-0,Waterford Utd
+2006,18,Bray Wanderers,1-1,Derry City
+2006,19,Shamrock Rovers,0-0,St. Pat's
+2006,19,Cork City,0-0,Drogheda United
+2006,19,Longford Town,1-0,UCD
+2006,19,Waterford Utd,1-2,Sligo Rovers
+2006,19,Galway United,0-1,Bray Wanderers
+2006,19,Bohemians,0-0,Derry City
+2006,20,St. Pat's,1-1,Cork City
+2006,20,Bray Wanderers,1-3,Longford Town
+2006,20,UCD,1-0,Bohemians
+2006,20,Drogheda United,3-0,Waterford Utd
+2006,20,Sligo Rovers,2-0,Shamrock Rovers
+2006,20,Derry City,0-0,Galway United
+2006,21,Bray Wanderers,1-2,Drogheda United
+2006,21,St. Pat's,1-1,UCD
+2006,21,Shamrock Rovers,1-1,Derry City
+2006,21,Longford Town,3-0,Bohemians
+2006,21,Galway United,1-2,Waterford Utd
+2006,21,Cork City,1-2,Sligo Rovers
+2006,22,UCD,2-2,Galway United
+2006,22,Bohemians,2-1,Cork City
+2006,22,Waterford Utd,0-2,Shamrock Rovers
+2006,22,Derry City,3-1,Longford Town
+2006,22,Drogheda United,2-0,St. Pat's
+2006,22,Sligo Rovers,3-0,Bray Wanderers
+2006,23,Longford Town,2-1,St. Pat's
+2006,23,Galway United,2-0,Sligo Rovers
+2006,23,Derry City,3-0,Bray Wanderers
+2006,23,Waterford Utd,0-3,Cork City
+2006,23,Bohemians,1-1,Drogheda United
+2006,23,UCD,2-4,Shamrock Rovers
+2006,24,St. Pat's,4-1,Waterford Utd
+2006,24,Cork City,0-0,Galway United
+2006,24,Bray Wanderers,0-3,Bohemians
+2006,24,Shamrock Rovers,0-1,Longford Town
+2006,24,Sligo Rovers,0-0,Derry City
+2006,24,Drogheda United,0-1,UCD
+2006,25,UCD,1-2,Cork City
+2006,25,Longford Town,1-1,Sligo Rovers
+2006,25,Bohemians,0-2,Shamrock Rovers
+2006,25,Galway United,1-1,Drogheda United
+2006,25,Waterford Utd,0-0,Bray Wanderers
+2006,25,Derry City,1-0,St. Pat's
+2006,26,Cork City,3-2,Longford Town
+2006,26,Drogheda United,1-0,Derry City
+2006,26,St. Pat's,4-2,Bray Wanderers
+2006,26,Shamrock Rovers,4-0,Galway United
+2006,26,Waterford Utd,0-0,Bohemians
+2006,26,Sligo Rovers,2-1,UCD
+2006,27,Bray Wanderers,3-0,Shamrock Rovers
+2006,27,Longford Town,1-2,Drogheda United
+2006,27,Galway United,0-1,St. Pat's
+2006,27,Derry City,1-2,Cork City
+2006,27,Bohemians,3-0,Sligo Rovers
+2006,27,UCD,2-1,Waterford Utd
+2006,28,Drogheda United,1-0,Sligo Rovers
+2006,28,Waterford Utd,2-1,Derry City
+2006,28,Cork City,1-0,Shamrock Rovers
+2006,28,UCD,1-1,Bray Wanderers
+2006,28,Galway United,2-1,Longford Town
+2006,28,St. Pat's,0-1,Bohemians
+2006,29,Longford Town,1-1,Waterford Utd
+2006,29,Shamrock Rovers,0-2,Drogheda United
+2006,29,Bohemians,2-0,Galway United
+2006,29,Sligo Rovers,2-3,St. Pat's
+2006,29,Bray Wanderers,1-1,Cork City
+2006,29,Derry City,0-0,UCD
+2006,30,St. Pat's,5-0,Shamrock Rovers
+2006,30,Bray Wanderers,1-1,Galway United
+2006,30,UCD,0-1,Longford Town
+2006,30,Derry City,1-2,Bohemians
+2006,30,Drogheda United,2-1,Cork City
+2006,30,Sligo Rovers,1-2,Waterford Utd
+2006,31,Shamrock Rovers,0-0,Sligo Rovers
+2006,31,Galway United,1-0,Derry City
+2006,31,Waterford Utd,1-1,Drogheda United
+2006,31,Cork City,0-1,St. Pat's
+2006,31,Bohemians,2-0,UCD
+2006,31,Longford Town,1-0,Bray Wanderers
+2006,32,UCD,0-3,St. Pat's
+2006,32,Bohemians,0-0,Longford Town
+2006,32,Waterford Utd,0-0,Galway United
+2006,32,Derry City,1-1,Shamrock Rovers
+2006,32,Drogheda United,1-1,Bray Wanderers
+2006,32,Sligo Rovers,0-1,Cork City
+2006,33,Bray Wanderers,2-1,Sligo Rovers
+2006,33,Galway United,2-1,UCD
+2006,33,Longford Town,3-1,Derry City
+2006,33,Cork City,0-1,Bohemians
+2006,33,Shamrock Rovers,0-0,Waterford Utd
+2006,33,St. Pat's,0-0,Drogheda United

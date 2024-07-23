@@ -1,0 +1,2 @@
+league=league-of-ireland-premier-division
+seasons=2021,2022,2023

@@ -41,7 +41,7 @@ def scrape_league_results(league, season_id, output_file_prefix):
 
     for matchday in matchdays:
         md_url = f"{base_url}plus/?saison_id={season_id}&spieltag={matchday}"
-        print(f"Scraping matchday data from: {md_url}")
+        # print(f"Scraping matchday data from: {md_url}")
 
         response = requests.get(md_url, headers=headers)
 
@@ -117,10 +117,11 @@ def scrape_league_results(league, season_id, output_file_prefix):
     
     df = pd.DataFrame(data)
 
+    #Ensure we have a Season and Matchday Column
     df['Matchday'] = df['Matchday'].astype(int)
 
     df = df.set_index('Matchday').apply(lambda x: x.apply(pd.Series).stack()).reset_index().drop('level_1', axis = 1).sort_values(by=['Matchday'])
-
+    df.insert(0, 'Season', season_id)
     
     # Define the output file name based on the season
     output_file = f'{output_file_prefix}_{season_id}.csv'
@@ -130,5 +131,46 @@ def scrape_league_results(league, season_id, output_file_prefix):
     
     print(f"Data has been saved to '{output_file}'.")
   
-    
-scrape_league_results(league = 'league-of-ireland-premier-division', season_id='2023', output_file_prefix='league_of_ireland_results')
+def parse_parameters(file_path):
+    parameters = {}
+
+    with open(file_path, 'r') as file:
+        for line in file:
+            key, value = line.strip().split('=', 1)
+            if ',' in value:
+                value = [v.strip() for v in value.split(',')]
+            else:
+                try:
+                    value = int(value)
+                except ValueError:
+                    try:
+                        value = float(value)
+                    except ValueError:
+                        pass
+            parameters[key] = value
+
+    # Handle nested parameters
+    nested_parameters = {}
+    for key, value in parameters.items():
+        if '.' in key:
+            parent, child = key.split('.', 1)
+            if parent not in nested_parameters:
+                nested_parameters[parent] = {}
+            nested_parameters[parent][child] = value
+        else:
+            nested_parameters[key] = value
+
+    return nested_parameters
+
+def main():
+    params = parse_parameters('parameters.txt')
+
+    seasons = params['seasons']
+
+    league = params['league']
+
+    for season in seasons:
+        scrape_league_results(league = league , season_id = season, output_file_prefix = 'Data/LOI/league_of_ireland_results')
+
+if __name__ == '__main__':
+    main()

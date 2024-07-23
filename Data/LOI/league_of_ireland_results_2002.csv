@@ -1,0 +1,181 @@
+Season,Matchday,Home Team,Score,Away Team
+2002,1,Derry City,2-3,Longford Town
+2002,1,Waterford Utd,0-4,Shelbourne
+2002,1,Bohemians,1-0,UCD
+2002,1,Shamrock Rovers,0-0,Drogheda United
+2002,1,Cork City,0-0,St. Pat's
+2002,2,St. Pat's,1-1,Shamrock Rovers
+2002,2,Drogheda United,1-3,Waterford Utd
+2002,2,UCD,0-3,Cork City
+2002,2,Shelbourne,1-0,Derry City
+2002,2,Longford Town,1-1,Bohemians
+2002,3,Shelbourne,3-2,Longford Town
+2002,3,Cork City,3-2,Bohemians
+2002,3,Waterford Utd,4-2,St. Pat's
+2002,3,Shamrock Rovers,1-0,UCD
+2002,3,Derry City,0-1,Drogheda United
+2002,4,St. Pat's,4-1,Derry City
+2002,4,UCD,1-2,Waterford Utd
+2002,4,Drogheda United,1-1,Shelbourne
+2002,4,Longford Town,0-3,Cork City
+2002,4,Bohemians,1-1,Shamrock Rovers
+2002,5,Shamrock Rovers,2-1,Cork City
+2002,5,Shelbourne,2-2,St. Pat's
+2002,5,Derry City,1-0,UCD
+2002,5,Waterford Utd,1-3,Bohemians
+2002,5,Drogheda United,2-2,Longford Town
+2002,6,UCD,0-2,Shelbourne
+2002,6,Bohemians,1-1,Derry City
+2002,6,Cork City,1-1,Waterford Utd
+2002,6,St. Pat's,3-1,Drogheda United
+2002,6,Longford Town,0-0,Shamrock Rovers
+2002,7,Drogheda United,2-0,UCD
+2002,7,Shelbourne,2-2,Bohemians
+2002,7,St. Pat's,1-1,Longford Town
+2002,7,Derry City,1-0,Cork City
+2002,7,Waterford Utd,2-0,Shamrock Rovers
+2002,8,Waterford Utd,1-1,Longford Town
+2002,8,UCD,0-0,St. Pat's
+2002,8,Bohemians,1-0,Drogheda United
+2002,8,Cork City,0-0,Shelbourne
+2002,8,Shamrock Rovers,5-1,Derry City
+2002,9,Longford Town,2-1,UCD
+2002,9,St. Pat's,1-0,Bohemians
+2002,9,Drogheda United,3-1,Cork City
+2002,9,Derry City,4-1,Waterford Utd
+2002,9,Shelbourne,1-0,Shamrock Rovers
+2002,10,Shelbourne,1-1,Waterford Utd
+2002,10,UCD,2-1,Bohemians
+2002,10,St. Pat's,1-1,Cork City
+2002,10,Drogheda United,1-2,Shamrock Rovers
+2002,10,Longford Town,4-0,Derry City
+2002,11,Bohemians,1-1,Longford Town
+2002,11,Shamrock Rovers,1-0,St. Pat's
+2002,11,Cork City,1-0,UCD
+2002,11,Waterford Utd,2-1,Drogheda United
+2002,11,Derry City,2-0,Shelbourne
+2002,12,Bohemians,1-1,Cork City
+2002,12,St. Pat's,4-1,Waterford Utd
+2002,12,Longford Town,0-2,Shelbourne
+2002,12,Drogheda United,1-0,Derry City
+2002,12,UCD,2-2,Shamrock Rovers
+2002,13,Shamrock Rovers,1-2,Bohemians
+2002,13,Cork City,4-1,Longford Town
+2002,13,Shelbourne,3-0,Drogheda United
+2002,13,Derry City,2-2,St. Pat's
+2002,13,Waterford Utd,1-1,UCD
+2002,14,Bohemians,5-1,Waterford Utd
+2002,14,St. Pat's,0-0,Shelbourne
+2002,14,UCD,1-1,Derry City
+2002,14,Longford Town,0-0,Drogheda United
+2002,14,Cork City,1-0,Shamrock Rovers
+2002,15,Shamrock Rovers,2-3,Longford Town
+2002,15,Derry City,1-0,Bohemians
+2002,15,Shelbourne,1-1,UCD
+2002,15,Waterford Utd,2-1,Cork City
+2002,15,Drogheda United,4-2,St. Pat's
+2002,16,Bohemians,1-0,Shelbourne
+2002,16,Cork City,1-1,Derry City
+2002,16,Shamrock Rovers,0-0,Waterford Utd
+2002,16,UCD,1-0,Drogheda United
+2002,16,Longford Town,1-1,St. Pat's
+2002,17,St. Pat's,2-0,UCD
+2002,17,Drogheda United,1-2,Bohemians
+2002,17,Derry City,1-1,Shamrock Rovers
+2002,17,Shelbourne,1-1,Cork City
+2002,17,Longford Town,1-0,Waterford Utd
+2002,18,UCD,0-3,Longford Town
+2002,18,Cork City,4-0,Drogheda United
+2002,18,Shamrock Rovers,2-4,Shelbourne
+2002,18,Waterford Utd,1-1,Derry City
+2002,18,Bohemians,1-2,St. Pat's
+2002,19,Bohemians,2-1,UCD
+2002,19,Cork City,0-2,St. Pat's
+2002,19,Shamrock Rovers,3-2,Drogheda United
+2002,19,Derry City,1-1,Longford Town
+2002,19,Waterford Utd,1-2,Shelbourne
+2002,20,UCD,1-1,Cork City
+2002,20,Longford Town,2-4,Bohemians
+2002,20,Shelbourne,3-1,Derry City
+2002,20,St. Pat's,1-0,Shamrock Rovers
+2002,20,Drogheda United,3-0,Waterford Utd
+2002,21,Waterford Utd,0-0,St. Pat's
+2002,21,Cork City,1-2,Bohemians
+2002,21,Shamrock Rovers,2-0,UCD
+2002,21,Shelbourne,2-1,Longford Town
+2002,21,Derry City,0-0,Drogheda United
+2002,22,Longford Town,0-1,Cork City
+2002,22,UCD,3-0,Waterford Utd
+2002,22,Drogheda United,0-1,Shelbourne
+2002,22,Bohemians,2-1,Shamrock Rovers
+2002,22,St. Pat's,2-2,Derry City
+2002,23,Derry City,0-2,UCD
+2002,23,Waterford Utd,2-1,Bohemians
+2002,23,Shelbourne,2-0,St. Pat's
+2002,23,Drogheda United,0-5,Longford Town
+2002,23,Shamrock Rovers,0-2,Cork City
+2002,24,St. Pat's,3-3,Drogheda United
+2002,24,Longford Town,1-2,Shamrock Rovers
+2002,24,Bohemians,3-1,Derry City
+2002,24,Cork City,2-2,Waterford Utd
+2002,24,UCD,0-1,Shelbourne
+2002,25,Derry City,1-1,Cork City
+2002,25,Waterford Utd,3-3,Shamrock Rovers
+2002,25,Drogheda United,0-0,UCD
+2002,25,Shelbourne,1-3,Bohemians
+2002,25,St. Pat's,1-2,Longford Town
+2002,26,Waterford Utd,0-0,Longford Town
+2002,26,UCD,0-0,St. Pat's
+2002,26,Bohemians,1-1,Drogheda United
+2002,26,Cork City,1-1,Shelbourne
+2002,26,Shamrock Rovers,1-1,Derry City
+2002,27,Longford Town,2-1,UCD
+2002,27,Shelbourne,0-2,Shamrock Rovers
+2002,27,Drogheda United,0-1,Cork City
+2002,27,Derry City,1-2,Waterford Utd
+2002,27,St. Pat's,2-4,Bohemians
+2002,28,Shelbourne,3-1,Waterford Utd
+2002,28,St. Pat's,0-2,Cork City
+2002,28,Longford Town,0-1,Derry City
+2002,28,UCD,0-1,Bohemians
+2002,28,Drogheda United,0-1,Shamrock Rovers
+2002,29,Bohemians,1-1,Longford Town
+2002,29,Cork City,0-0,UCD
+2002,29,Shamrock Rovers,3-5,St. Pat's
+2002,29,Derry City,0-0,Shelbourne
+2002,29,Waterford Utd,0-2,Drogheda United
+2002,30,UCD,1-1,Shamrock Rovers
+2002,30,St. Pat's,1-0,Waterford Utd
+2002,30,Drogheda United,1-1,Derry City
+2002,30,Longford Town,2-1,Shelbourne
+2002,30,Bohemians,1-0,Cork City
+2002,31,Shamrock Rovers,0-0,Bohemians
+2002,31,Waterford Utd,2-2,UCD
+2002,31,Cork City,0-0,Longford Town
+2002,31,Derry City,1-1,St. Pat's
+2002,31,Shelbourne,2-0,Drogheda United
+2002,32,St. Pat's,0-1,Shelbourne
+2002,32,Longford Town,0-2,Drogheda United
+2002,32,Bohemians,1-1,Waterford Utd
+2002,32,UCD,2-0,Derry City
+2002,32,Cork City,2-2,Shamrock Rovers
+2002,33,Shelbourne,0-0,UCD
+2002,33,Shamrock Rovers,0-1,Longford Town
+2002,33,Waterford Utd,3-0,Cork City
+2002,33,Derry City,0-3,Bohemians
+2002,33,Drogheda United,2-2,St. Pat's
+2002,34,Bohemians,0-1,Shelbourne
+2002,34,Shamrock Rovers,1-1,Waterford Utd
+2002,34,Cork City,1-0,Derry City
+2002,34,UCD,2-1,Drogheda United
+2002,34,Longford Town,2-0,St. Pat's
+2002,35,Derry City,1-1,Shamrock Rovers
+2002,35,Shelbourne,2-0,Cork City
+2002,35,St. Pat's,0-0,UCD
+2002,35,Drogheda United,2-0,Bohemians
+2002,35,Longford Town,0-1,Waterford Utd
+2002,36,UCD,2-0,Longford Town
+2002,36,Shamrock Rovers,1-1,Shelbourne
+2002,36,Bohemians,3-0,St. Pat's
+2002,36,Waterford Utd,0-1,Derry City
+2002,36,Cork City,1-0,Drogheda United

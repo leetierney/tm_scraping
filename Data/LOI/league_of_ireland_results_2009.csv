@@ -1,0 +1,181 @@
+Season,Matchday,Home Team,Score,Away Team
+2009,1,Bohemians,1-0,Sporting Fingal
+2009,1,Bray Wanderers,0-1,Dundalk FC
+2009,1,St. Pat's,2-0,Galway United
+2009,1,Drogheda United,0-3,UCD
+2009,1,Sligo Rovers,1-1,Shamrock Rovers
+2009,2,Galway United,2-1,Bray Wanderers
+2009,2,Sporting Fingal,1-1,Sligo Rovers
+2009,2,Dundalk FC,2-2,Drogheda United
+2009,2,UCD,1-2,Bohemians
+2009,2,Shamrock Rovers,0-2,St. Pat's
+2009,3,Shamrock Rovers,0-2,Dundalk FC
+2009,3,Sligo Rovers,1-0,Galway United
+2009,3,Bray Wanderers,1-3,Sporting Fingal
+2009,3,Drogheda United,2-4,Bohemians
+2009,3,St. Pat's,3-0,UCD
+2009,4,Galway United,0-1,Shamrock Rovers
+2009,4,Sporting Fingal,4-1,Drogheda United
+2009,4,Bohemians,0-0,Sligo Rovers
+2009,4,UCD,1-0,Bray Wanderers
+2009,4,Dundalk FC,0-0,St. Pat's
+2009,5,Bray Wanderers,0-2,Bohemians
+2009,5,Galway United,0-1,Dundalk FC
+2009,5,St. Pat's,0-0,Sporting Fingal
+2009,5,Drogheda United,2-2,Sligo Rovers
+2009,5,Shamrock Rovers,0-0,UCD
+2009,6,Sporting Fingal,1-1,Shamrock Rovers
+2009,6,UCD,0-0,Galway United
+2009,6,Drogheda United,0-0,Bray Wanderers
+2009,6,Sligo Rovers,2-2,Dundalk FC
+2009,6,Bohemians,1-1,St. Pat's
+2009,7,Shamrock Rovers,1-0,Bohemians
+2009,7,Bray Wanderers,2-3,Sligo Rovers
+2009,7,Dundalk FC,3-0,UCD
+2009,7,Galway United,2-2,Sporting Fingal
+2009,7,St. Pat's,0-1,Drogheda United
+2009,8,Bohemians,2-3,Galway United
+2009,8,Sporting Fingal,2-1,Dundalk FC
+2009,8,Drogheda United,0-2,Shamrock Rovers
+2009,8,Bray Wanderers,0-4,St. Pat's
+2009,8,Sligo Rovers,2-1,UCD
+2009,9,Shamrock Rovers,1-0,Bray Wanderers
+2009,9,Galway United,3-1,Drogheda United
+2009,9,Dundalk FC,1-0,Bohemians
+2009,9,UCD,0-0,Sporting Fingal
+2009,9,St. Pat's,1-0,Sligo Rovers
+2009,10,Sporting Fingal,0-2,Bohemians
+2009,10,UCD,2-0,Drogheda United
+2009,10,Galway United,0-2,St. Pat's
+2009,10,Dundalk FC,2-3,Bray Wanderers
+2009,10,Shamrock Rovers,1-1,Sligo Rovers
+2009,11,Drogheda United,1-3,Dundalk FC
+2009,11,Sligo Rovers,0-1,Sporting Fingal
+2009,11,St. Pat's,1-2,Shamrock Rovers
+2009,11,Bohemians,0-0,UCD
+2009,11,Bray Wanderers,0-2,Galway United
+2009,12,Dundalk FC,2-1,Shamrock Rovers
+2009,12,UCD,1-0,St. Pat's
+2009,12,Bohemians,1-0,Drogheda United
+2009,12,Sporting Fingal,1-0,Bray Wanderers
+2009,12,Galway United,0-0,Sligo Rovers
+2009,13,Sligo Rovers,1-2,Bohemians
+2009,13,St. Pat's,1-0,Dundalk FC
+2009,13,Shamrock Rovers,2-0,Galway United
+2009,13,Bray Wanderers,0-6,UCD
+2009,13,Drogheda United,1-1,Sporting Fingal
+2009,14,UCD,1-2,Shamrock Rovers
+2009,14,Dundalk FC,0-0,Galway United
+2009,14,Sligo Rovers,6-0,Drogheda United
+2009,14,Bohemians,2-0,Bray Wanderers
+2009,14,Sporting Fingal,2-3,St. Pat's
+2009,15,Bray Wanderers,2-2,Drogheda United
+2009,15,Shamrock Rovers,1-1,Sporting Fingal
+2009,15,St. Pat's,3-1,Bohemians
+2009,15,Galway United,2-2,UCD
+2009,15,Dundalk FC,1-0,Sligo Rovers
+2009,16,Sligo Rovers,5-1,Bray Wanderers
+2009,16,Bohemians,0-0,Shamrock Rovers
+2009,16,Sporting Fingal,2-0,Galway United
+2009,16,Drogheda United,2-1,St. Pat's
+2009,16,UCD,3-1,Dundalk FC
+2009,17,UCD,0-2,Sligo Rovers
+2009,17,Dundalk FC,1-2,Sporting Fingal
+2009,17,Galway United,2-2,Bohemians
+2009,17,St. Pat's,3-0,Bray Wanderers
+2009,17,Shamrock Rovers,1-1,Drogheda United
+2009,18,Drogheda United,0-1,Galway United
+2009,18,Bray Wanderers,0-0,Shamrock Rovers
+2009,18,Sligo Rovers,0-0,St. Pat's
+2009,18,Bohemians,3-0,Dundalk FC
+2009,18,Sporting Fingal,1-2,UCD
+2009,19,Bohemians,1-1,Sporting Fingal
+2009,19,Sligo Rovers,1-2,Shamrock Rovers
+2009,19,Drogheda United,1-0,UCD
+2009,19,St. Pat's,4-2,Galway United
+2009,19,Bray Wanderers,2-0,Dundalk FC
+2009,20,Shamrock Rovers,2-1,St. Pat's
+2009,20,UCD,0-2,Bohemians
+2009,20,Galway United,2-2,Bray Wanderers
+2009,20,Dundalk FC,2-1,Drogheda United
+2009,20,Sporting Fingal,1-1,Sligo Rovers
+2009,21,St. Pat's,2-1,UCD
+2009,21,Sligo Rovers,3-0,Galway United
+2009,21,Bray Wanderers,0-3,Sporting Fingal
+2009,21,Shamrock Rovers,4-0,Dundalk FC
+2009,21,Drogheda United,0-1,Bohemians
+2009,22,Galway United,0-1,Shamrock Rovers
+2009,22,Dundalk FC,0-3,St. Pat's
+2009,22,Sporting Fingal,1-2,Drogheda United
+2009,22,Bohemians,2-0,Sligo Rovers
+2009,22,UCD,4-0,Bray Wanderers
+2009,23,Bray Wanderers,0-3,Bohemians
+2009,23,Drogheda United,2-3,Sligo Rovers
+2009,23,St. Pat's,1-1,Sporting Fingal
+2009,23,Galway United,1-1,Dundalk FC
+2009,23,Shamrock Rovers,4-1,UCD
+2009,24,Sligo Rovers,1-0,Dundalk FC
+2009,24,Drogheda United,0-2,Bray Wanderers
+2009,24,Sporting Fingal,3-3,Shamrock Rovers
+2009,24,UCD,0-1,Galway United
+2009,24,Bohemians,1-1,St. Pat's
+2009,25,St. Pat's,2-0,Drogheda United
+2009,25,Bray Wanderers,1-3,Sligo Rovers
+2009,25,Dundalk FC,1-1,UCD
+2009,25,Galway United,0-1,Sporting Fingal
+2009,25,Shamrock Rovers,3-0,Bohemians
+2009,26,Sporting Fingal,1-0,Dundalk FC
+2009,26,Bohemians,0-2,Galway United
+2009,26,Bray Wanderers,3-2,St. Pat's
+2009,26,Drogheda United,0-2,Shamrock Rovers
+2009,26,Sligo Rovers,4-0,UCD
+2009,27,Shamrock Rovers,4-1,Bray Wanderers
+2009,27,Galway United,2-1,Drogheda United
+2009,27,St. Pat's,0-0,Sligo Rovers
+2009,27,UCD,1-2,Sporting Fingal
+2009,27,Dundalk FC,1-2,Bohemians
+2009,28,Dundalk FC,0-2,Bray Wanderers
+2009,28,Sporting Fingal,0-0,Bohemians
+2009,28,Galway United,1-1,St. Pat's
+2009,28,UCD,1-1,Drogheda United
+2009,28,Shamrock Rovers,1-0,Sligo Rovers
+2009,29,Bray Wanderers,4-0,Galway United
+2009,29,Bohemians,3-1,UCD
+2009,29,Sligo Rovers,4-3,Sporting Fingal
+2009,29,St. Pat's,1-3,Shamrock Rovers
+2009,29,Drogheda United,1-3,Dundalk FC
+2009,30,Bohemians,2-0,Drogheda United
+2009,30,UCD,3-2,St. Pat's
+2009,30,Dundalk FC,5-1,Shamrock Rovers
+2009,30,Galway United,2-2,Sligo Rovers
+2009,30,Sporting Fingal,2-2,Bray Wanderers
+2009,31,Sligo Rovers,1-1,Bohemians
+2009,31,Bray Wanderers,2-2,UCD
+2009,31,Drogheda United,0-4,Sporting Fingal
+2009,31,St. Pat's,1-2,Dundalk FC
+2009,31,Shamrock Rovers,3-0,Galway United
+2009,32,Sporting Fingal,2-2,St. Pat's
+2009,32,Sligo Rovers,2-1,Drogheda United
+2009,32,Bohemians,0-0,Bray Wanderers
+2009,32,UCD,3-2,Shamrock Rovers
+2009,32,Dundalk FC,3-0,Galway United
+2009,33,St. Pat's,0-1,Bohemians
+2009,33,Dundalk FC,2-4,Sligo Rovers
+2009,33,Shamrock Rovers,1-2,Sporting Fingal
+2009,33,Galway United,1-4,UCD
+2009,33,Bray Wanderers,1-1,Drogheda United
+2009,34,Sporting Fingal,3-1,Galway United
+2009,34,Drogheda United,0-3,St. Pat's
+2009,34,UCD,0-2,Dundalk FC
+2009,34,Bohemians,1-0,Shamrock Rovers
+2009,34,Sligo Rovers,2-1,Bray Wanderers
+2009,35,Dundalk FC,0-2,Sporting Fingal
+2009,35,UCD,1-2,Sligo Rovers
+2009,35,Galway United,3-2,Bohemians
+2009,35,St. Pat's,2-0,Bray Wanderers
+2009,35,Shamrock Rovers,2-0,Drogheda United
+2009,36,Bray Wanderers,2-2,Shamrock Rovers
+2009,36,Sligo Rovers,1-0,St. Pat's
+2009,36,Bohemians,3-1,Dundalk FC
+2009,36,Sporting Fingal,4-1,UCD
+2009,36,Drogheda United,3-3,Galway United
