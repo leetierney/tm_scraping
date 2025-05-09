@@ -38,7 +38,6 @@ def scrape_league_results(league, season_id, output_file_prefix):
     scores = []
     away_teams = []
     
-
     for matchday in matchdays:
         md_url = f"{base_url}plus/?saison_id={season_id}&spieltag={matchday}"
         # print(f"Scraping matchday data from: {md_url}")
