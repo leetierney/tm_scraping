@@ -34,3 +34,8 @@ and had some fun analysing results in a variety of leagues. There were, however,
   <li>Script using class and multiple functions takes 0:00:40.757512 minutes</li>
 </ol>
 <p>As such, I archived the multi-function option.</p>
+
+<h2>Update</h2>
+<p>This project was built prior to the ease of access to GPTs, and so I'd probably start from scratch if I was to start looking at this again. </p>
+
+<p>It was a fun POC project though, and a good way to practice some Python skills.</p>
