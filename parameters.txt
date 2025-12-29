@@ -1,2 +1,2 @@
 league=league-of-ireland-premier-division
-seasons=2021
+seasons=2021,2020

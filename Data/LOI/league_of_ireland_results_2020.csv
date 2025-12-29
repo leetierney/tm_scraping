@@ -1,124 +1,124 @@
 Season,Matchday,Home Team,Score,Away Team
 2020,1,Drogheda United,1-0,Waterford FC
 2020,1,Shamrock Rovers,1-1,St. Pat's
+2020,1,Finn Harps,1-0,Bohemians
 2020,1,Longford Town,2-0,Derry City
 2020,1,Sligo Rovers,1-1,Dundalk FC
-2020,1,Finn Harps,1-0,Bohemians
 2020,2,Dundalk FC,1-2,Finn Harps
 2020,2,Waterford FC,1-2,Sligo Rovers
-2020,2,St. Pat's,2-1,Drogheda United
 2020,2,Bohemians,2-2,Longford Town
+2020,2,St. Pat's,2-1,Drogheda United
 2020,2,Derry City,0-2,Shamrock Rovers
-2020,3,Bohemians,0-1,St. Pat's
-2020,3,Derry City,1-2,Waterford FC
 2020,3,Longford Town,0-1,Sligo Rovers
 2020,3,Shamrock Rovers,2-1,Dundalk FC
 2020,3,Drogheda United,1-1,Finn Harps
+2020,3,Derry City,1-2,Waterford FC
+2020,3,Bohemians,0-1,St. Pat's
 2020,4,St. Pat's,2-0,Derry City
 2020,4,Dundalk FC,0-1,Bohemians
 2020,4,Finn Harps,2-1,Waterford FC
-2020,4,Sligo Rovers,1-1,Shamrock Rovers
 2020,4,Longford Town,0-4,Drogheda United
-2020,5,Dundalk FC,1-1,St. Pat's
-2020,5,Sligo Rovers,1-0,Finn Harps
+2020,4,Sligo Rovers,1-1,Shamrock Rovers
 2020,5,Waterford FC,0-1,Bohemians
 2020,5,Derry City,1-1,Drogheda United
+2020,5,Dundalk FC,1-1,St. Pat's
 2020,5,Shamrock Rovers,2-1,Longford Town
-2020,6,Derry City,1-1,Dundalk FC
+2020,5,Sligo Rovers,1-0,Finn Harps
 2020,6,Drogheda United,0-1,Shamrock Rovers
-2020,6,Bohemians,1-3,Sligo Rovers
 2020,6,St. Pat's,1-0,Waterford FC
 2020,6,Longford Town,0-0,Finn Harps
-2020,7,Waterford FC,1-0,Longford Town
-2020,7,Sligo Rovers,0-1,Derry City
-2020,7,Dundalk FC,2-1,Drogheda United
+2020,6,Derry City,1-1,Dundalk FC
+2020,6,Bohemians,1-3,Sligo Rovers
 2020,7,Finn Harps,0-2,St. Pat's
 2020,7,Shamrock Rovers,2-1,Bohemians
-2020,8,Drogheda United,1-1,Sligo Rovers
+2020,7,Dundalk FC,2-1,Drogheda United
+2020,7,Waterford FC,1-0,Longford Town
+2020,7,Sligo Rovers,0-1,Derry City
 2020,8,St. Pat's,3-0,Longford Town
+2020,8,Drogheda United,1-1,Sligo Rovers
 2020,8,Bohemians,1-2,Derry City
-2020,8,Finn Harps,0-2,Shamrock Rovers
 2020,8,Waterford FC,0-3,Dundalk FC
-2020,9,Derry City,1-2,Finn Harps
-2020,9,Longford Town,2-2,Dundalk FC
-2020,9,Sligo Rovers,1-1,St. Pat's
+2020,8,Finn Harps,0-2,Shamrock Rovers
 2020,9,Drogheda United,1-1,Bohemians
 2020,9,Shamrock Rovers,3-0,Waterford FC
+2020,9,Longford Town,2-2,Dundalk FC
+2020,9,Sligo Rovers,1-1,St. Pat's
+2020,9,Derry City,1-2,Finn Harps
 2020,10,Derry City,1-1,Longford Town
 2020,10,Dundalk FC,0-1,Sligo Rovers
-2020,10,Bohemians,4-0,Finn Harps
 2020,10,Waterford FC,0-7,Drogheda United
+2020,10,Bohemians,4-0,Finn Harps
 2020,10,St. Pat's,1-2,Shamrock Rovers
-2020,11,Longford Town,0-2,Bohemians
-2020,11,Shamrock Rovers,1-1,Derry City
-2020,11,Sligo Rovers,3-0,Waterford FC
-2020,11,Drogheda United,3-1,St. Pat's
 2020,11,Finn Harps,1-1,Dundalk FC
+2020,11,Drogheda United,3-1,St. Pat's
+2020,11,Shamrock Rovers,1-1,Derry City
+2020,11,Longford Town,0-2,Bohemians
+2020,11,Sligo Rovers,3-0,Waterford FC
 2020,12,Waterford FC,0-1,Derry City
 2020,12,St. Pat's,2-1,Bohemians
-2020,12,Finn Harps,0-1,Drogheda United
 2020,12,Dundalk FC,2-1,Shamrock Rovers
+2020,12,Finn Harps,0-1,Drogheda United
 2020,12,Sligo Rovers,2-0,Longford Town
-2020,13,Shamrock Rovers,0-1,Sligo Rovers
-2020,13,Drogheda United,4-1,Longford Town
-2020,13,Waterford FC,1-2,Finn Harps
 2020,13,Bohemians,5-1,Dundalk FC
 2020,13,Derry City,2-2,St. Pat's
+2020,13,Waterford FC,1-2,Finn Harps
+2020,13,Drogheda United,4-1,Longford Town
+2020,13,Shamrock Rovers,0-1,Sligo Rovers
 2020,14,Finn Harps,1-2,Sligo Rovers
 2020,14,Drogheda United,1-2,Derry City
 2020,14,St. Pat's,0-2,Dundalk FC
 2020,14,Bohemians,3-0,Waterford FC
 2020,14,Longford Town,0-1,Shamrock Rovers
+2020,15,Derry City,1-1,Bohemians
+2020,15,Dundalk FC,1-3,Waterford FC
+2020,15,Shamrock Rovers,1-1,Finn Harps
 2020,15,Longford Town,1-3,St. Pat's
 2020,15,Sligo Rovers,1-2,Drogheda United
-2020,15,Dundalk FC,1-3,Waterford FC
-2020,15,Derry City,1-1,Bohemians
-2020,15,Shamrock Rovers,1-1,Finn Harps
-2020,16,Finn Harps,1-2,Derry City
-2020,16,Bohemians,5-0,Drogheda United
 2020,16,Dundalk FC,1-1,Longford Town
 2020,16,Waterford FC,1-4,Shamrock Rovers
 2020,16,St. Pat's,2-0,Sligo Rovers
-2020,17,Longford Town,1-2,Waterford FC
-2020,17,St. Pat's,4-1,Finn Harps
-2020,17,Bohemians,1-0,Shamrock Rovers
+2020,16,Bohemians,5-0,Drogheda United
+2020,16,Finn Harps,1-2,Derry City
 2020,17,Drogheda United,0-1,Dundalk FC
+2020,17,St. Pat's,4-1,Finn Harps
 2020,17,Derry City,1-1,Sligo Rovers
+2020,17,Bohemians,1-0,Shamrock Rovers
+2020,17,Longford Town,1-2,Waterford FC
+2020,18,Waterford FC,1-1,St. Pat's
+2020,18,Dundalk FC,2-1,Derry City
 2020,18,Finn Harps,1-1,Longford Town
 2020,18,Shamrock Rovers,1-1,Drogheda United
 2020,18,Sligo Rovers,4-0,Bohemians
-2020,18,Waterford FC,1-1,St. Pat's
-2020,18,Dundalk FC,2-1,Derry City
 2020,19,Drogheda United,3-1,Finn Harps
 2020,19,Derry City,2-0,Waterford FC
 2020,19,Bohemians,3-2,St. Pat's
 2020,19,Shamrock Rovers,3-1,Dundalk FC
 2020,19,Longford Town,0-1,Sligo Rovers
-2020,20,Dundalk FC,2-1,Bohemians
-2020,20,Sligo Rovers,0-1,Shamrock Rovers
-2020,20,Longford Town,1-1,Drogheda United
-2020,20,St. Pat's,1-0,Derry City
 2020,20,Finn Harps,0-1,Waterford FC
-2020,21,St. Pat's,2-0,Drogheda United
+2020,20,St. Pat's,1-0,Derry City
+2020,20,Longford Town,1-1,Drogheda United
+2020,20,Sligo Rovers,0-1,Shamrock Rovers
+2020,20,Dundalk FC,2-1,Bohemians
 2020,21,Derry City,2-4,Shamrock Rovers
+2020,21,St. Pat's,2-0,Drogheda United
 2020,21,Dundalk FC,1-0,Finn Harps
 2020,21,Bohemians,1-1,Longford Town
 2020,21,Waterford FC,1-0,Sligo Rovers
-2020,22,Finn Harps,1-2,Bohemians
-2020,22,Longford Town,0-2,Derry City
-2020,22,Sligo Rovers,2-1,Dundalk FC
 2020,22,Drogheda United,1-2,Waterford FC
 2020,22,Shamrock Rovers,3-1,St. Pat's
+2020,22,Longford Town,0-2,Derry City
+2020,22,Finn Harps,1-2,Bohemians
+2020,22,Sligo Rovers,2-1,Dundalk FC
 2020,23,Derry City,3-0,Drogheda United
 2020,23,Waterford FC,1-0,Bohemians
 2020,23,Sligo Rovers,0-1,Finn Harps
 2020,23,Dundalk FC,1-4,St. Pat's
 2020,23,Shamrock Rovers,1-0,Longford Town
-2020,24,Drogheda United,0-1,Shamrock Rovers
-2020,24,Derry City,1-0,Dundalk FC
-2020,24,Bohemians,1-0,Sligo Rovers
 2020,24,St. Pat's,2-1,Waterford FC
 2020,24,Longford Town,0-3,Finn Harps
+2020,24,Drogheda United,0-1,Shamrock Rovers
+2020,24,Bohemians,1-0,Sligo Rovers
+2020,24,Derry City,1-0,Dundalk FC
 2020,25,Waterford FC,4-1,Longford Town
 2020,25,Dundalk FC,1-2,Drogheda United
 2020,25,Finn Harps,3-1,St. Pat's
@@ -129,53 +129,53 @@ Season,Matchday,Home Team,Score,Away Team
 2020,26,Drogheda United,0-0,Sligo Rovers
 2020,26,Finn Harps,2-1,Shamrock Rovers
 2020,26,Bohemians,3-3,Derry City
-2020,27,Longford Town,1-0,Dundalk FC
-2020,27,Drogheda United,3-2,Bohemians
-2020,27,Shamrock Rovers,2-0,Waterford FC
 2020,27,Derry City,2-2,Finn Harps
+2020,27,Drogheda United,3-2,Bohemians
 2020,27,Sligo Rovers,2-0,St. Pat's
+2020,27,Shamrock Rovers,2-0,Waterford FC
+2020,27,Longford Town,1-0,Dundalk FC
 2020,28,Waterford FC,1-0,Drogheda United
-2020,28,St. Pat's,0-1,Shamrock Rovers
 2020,28,Derry City,3-0,Longford Town
 2020,28,Dundalk FC,4-1,Sligo Rovers
 2020,28,Bohemians,1-2,Finn Harps
-2020,29,Longford Town,1-4,Bohemians
-2020,29,Shamrock Rovers,2-1,Derry City
-2020,29,Sligo Rovers,1-1,Waterford FC
+2020,28,St. Pat's,0-1,Shamrock Rovers
 2020,29,Drogheda United,0-1,St. Pat's
 2020,29,Finn Harps,2-2,Dundalk FC
-2020,30,Sligo Rovers,1-0,Longford Town
+2020,29,Shamrock Rovers,2-1,Derry City
+2020,29,Longford Town,1-4,Bohemians
+2020,29,Sligo Rovers,1-1,Waterford FC
+2020,30,Dundalk FC,1-0,Shamrock Rovers
 2020,30,St. Pat's,2-2,Bohemians
+2020,30,Sligo Rovers,1-0,Longford Town
 2020,30,Finn Harps,0-0,Drogheda United
 2020,30,Waterford FC,2-2,Derry City
-2020,30,Dundalk FC,1-0,Shamrock Rovers
-2020,31,Drogheda United,2-0,Longford Town
 2020,31,Waterford FC,4-1,Finn Harps
 2020,31,Bohemians,1-1,Dundalk FC
 2020,31,Derry City,1-0,St. Pat's
+2020,31,Drogheda United,2-0,Longford Town
 2020,31,Shamrock Rovers,2-0,Sligo Rovers
+2020,32,Longford Town,0-1,Shamrock Rovers
+2020,32,Finn Harps,2-2,Sligo Rovers
+2020,32,Drogheda United,1-0,Derry City
 2020,32,Bohemians,1-2,Waterford FC
 2020,32,St. Pat's,1-0,Dundalk FC
-2020,32,Finn Harps,2-2,Sligo Rovers
-2020,32,Longford Town,0-1,Shamrock Rovers
-2020,32,Drogheda United,1-0,Derry City
 2020,33,Longford Town,1-4,St. Pat's
-2020,33,Sligo Rovers,2-0,Drogheda United
 2020,33,Derry City,1-1,Bohemians
-2020,33,Shamrock Rovers,3-0,Finn Harps
 2020,33,Dundalk FC,1-0,Waterford FC
-2020,34,Bohemians,2-1,Drogheda United
+2020,33,Sligo Rovers,2-0,Drogheda United
+2020,33,Shamrock Rovers,3-0,Finn Harps
+2020,34,Waterford FC,1-3,Shamrock Rovers
+2020,34,St. Pat's,0-3,Sligo Rovers
 2020,34,Finn Harps,1-1,Derry City
 2020,34,Dundalk FC,2-0,Longford Town
-2020,34,St. Pat's,0-3,Sligo Rovers
-2020,34,Waterford FC,1-3,Shamrock Rovers
+2020,34,Bohemians,2-1,Drogheda United
 2020,35,Drogheda United,0-1,Dundalk FC
-2020,35,Bohemians,3-1,Shamrock Rovers
 2020,35,St. Pat's,2-2,Finn Harps
 2020,35,Derry City,2-0,Sligo Rovers
+2020,35,Bohemians,3-1,Shamrock Rovers
 2020,35,Longford Town,1-1,Waterford FC
-2020,36,Shamrock Rovers,2-1,Drogheda United
-2020,36,Sligo Rovers,1-1,Bohemians
+2020,36,Waterford FC,0-0,St. Pat's
 2020,36,Finn Harps,5-0,Longford Town
 2020,36,Dundalk FC,1-2,Derry City
-2020,36,Waterford FC,0-0,St. Pat's
+2020,36,Shamrock Rovers,2-1,Drogheda United
+2020,36,Sligo Rovers,1-1,Bohemians
